@@ -1,0 +1,92 @@
+/*red: #E31B24
+blue: #24286B*/
+
+.site-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topWrapperFlex{
+  max-width:1140px;
+}
+
+.topWrapper{
+width: 1140px;
+height: 128px;
+}
+
+.topLogoWrapper{
+  width:50%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  float:left;
+}
+
+.topRightWrapper{
+  width:50%;
+  height:100%;
+  float:right;
+}
+
+.searchBar{
+background: #fff;
+background-size: 36px 16px;
+color: #888;
+font-size: 10px;
+margin-bottom: 20px;
+padding: 12px;
+text-transform: uppercase;
+width: 300px;
+font-family: 'Open Sans';
+border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px #eee inset;
+}
+
+.magGlass{
+  width:18px;
+  position: relative;
+  top:-48px;
+  left:-12px;
+}
+
+.rightContent{
+  height:100%;
+  width:100%;
+  padding-top:15px;
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.phoneNumber{
+  margin-bottom:4px;
+}
+
+.navWrapper{
+  width:1140px;
+  height:53px;
+  background-color: #dcdcdc;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#E31B24;
+}
+
+.categories{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.categories div{
+  margin-right:5%;
+  margin-left:5%;
+}
