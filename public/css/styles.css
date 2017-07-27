@@ -2,7 +2,7 @@
 blue: #24286B*/
 
 .site-container{
-  width:100%;
+  /*max-width:100%;*/
   display:flex;
   justify-content: center;
   align-items: center;
@@ -10,11 +10,11 @@ blue: #24286B*/
 }
 
 .topWrapperFlex{
-  max-width:1140px;
+  width:1140px;
 }
 
 .topWrapper{
-width: 1140px;
+max-width: 1140px;
 height: 128px;
 }
 
@@ -89,4 +89,8 @@ border: 1px solid #ddd;
 .categories div{
   margin-right:5%;
   margin-left:5%;
+}
+
+.banner{
+  width:1140px;
 }
