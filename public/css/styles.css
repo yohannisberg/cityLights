@@ -35,24 +35,26 @@ height: 128px;
 }
 
 .searchBar{
+position: relative;
+right:-21px;
 background: #fff;
 background-size: 36px 16px;
 color: #888;
-font-size: 10px;
+font-size: 12px;
 margin-bottom: 20px;
 padding: 12px;
-text-transform: uppercase;
 width: 275px;
-font-family: 'Open Sans';
 border: 1px solid #ddd;
-    box-shadow: 1px 1px 3px #eee inset;
+box-shadow: 1px 1px 3px #eee inset;
+font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .magGlass{
   width:18px;
   position: relative;
-  top:-48px;
+  top:5px;
   left:-12px;
+  cursor:pointer;
 }
 
 .rightContent{
@@ -165,14 +167,48 @@ margin-top:30px;
 }
 
 .footerWrapper{
-  background-color:green;
-  height:100px;
+  height:80px;
   margin: 0 14px;
-
 }
 
 .newsletter{
-  width:100px;
-  height:50px;
+  width:100%;
+  height:100%;
   background-color: #E31B24;
+  margin-top:20px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight:500;
+  margin-bottom:20px;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputWrapper{
+  padding-left:14px;
+  width:100%;
+}
+
+.newsletterInput{
+  display: inline-block;
+padding: 0 8px;
+width: 32%;
+background: #fff;
+vertical-align: top;
+margin-right: 1%;
+border: solid 2px transparent;
+height:36px;
+}
+
+.signUp{
+  margin-bottom:5px;
+  padding-left:14px;
+}
+
+.subscribe{
+  border: 1px white solid;
+  padding: 11px;
+  position: absolute;
 }

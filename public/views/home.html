@@ -9,8 +9,16 @@
 <div class='topRightWrapper'>
 <div class='rightContent'>
 <img ng-src='./images/phonePS.png' class='phoneNumber'>
-<input type='text' class='searchBar' placeholder="SEARCH OUR WEBSITE...">
-<img ng-src='./images/magGlass.png' class='magGlass'>
+
+<form ng-submit='controlData(searchQuery)'>
+<input ng-model='searchQuery' type='text' class='searchBar' placeholder="Search...">
+
+<img ng-click='controlData(searchQuery)' ng-src='./images/magGlass.png' class='magGlass'>
+
+</form>
+
+
+
 </div>
 </div>
 </div>
@@ -65,7 +73,15 @@
 
 <div class='footerWrapper'>
 
-<div class='newsletter'></div>
+<div class='newsletter'>
+<div class='signUp'>Sign up for our newsletter</div>
+
+<div class='inputWrapper'>
+<input type='text' placeholder='example@youremail.com' class='newsletterInput'>
+<span class='subscribe'>Subscribe</span>
+</div>
+
+</div>
 
 </div>
 </div>
