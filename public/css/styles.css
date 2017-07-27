@@ -1,6 +1,8 @@
 /*red: #E31B24
 blue: #24286B*/
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
 .site-container{
   /*max-width:100%;*/
   display:flex;
@@ -40,7 +42,7 @@ font-size: 10px;
 margin-bottom: 20px;
 padding: 12px;
 text-transform: uppercase;
-width: 300px;
+width: 275px;
 font-family: 'Open Sans';
 border: 1px solid #ddd;
     box-shadow: 1px 1px 3px #eee inset;
@@ -71,12 +73,6 @@ border: 1px solid #ddd;
   width:1140px;
   height:53px;
   background-color: #dcdcdc;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.5;
-  text-transform: uppercase;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color:#E31B24;
 }
 
 .categories{
@@ -84,6 +80,13 @@ border: 1px solid #ddd;
   height:100%;
   display: flex;
   align-items: center;
+
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#E31B24;
 }
 
 .categories div{
@@ -93,4 +96,83 @@ border: 1px solid #ddd;
 
 .banner{
   width:1140px;
+}
+
+.infoWrapper{
+  width:1140px;
+  height:526px;
+  margin-top:20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoBox{
+  width:33.333333333%;
+  height:85.6%;
+  background-color: #dcdcdc;
+  margin:0 14px 36px 14px;
+  padding:3%;
+}
+
+.infoTitle{
+  font-size: 16px;
+  font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top:20px;
+  text-align: center;
+  color:#E31B24;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.infoBorder{
+  border-bottom:1px dashed #999;
+  margin-top:20px;
+}
+
+.infoSumm{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:13.5px;
+  color:#222;
+  margin-top:30px;
+  line-height: 1.6;
+  height:105px;
+}
+
+.learnMore{
+background-color: #E31B24;
+border: none;
+border-radius: 5px;
+box-shadow: none;
+color: #fff !important;
+cursor: pointer;
+padding: 10px 20px;
+width: 160px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+display: block;
+margin-left: auto !important;
+margin-right: auto !important;
+text-transform: uppercase;
+font-weight: 500;
+font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+margin-top:30px;
+}
+
+.salesTeam{
+  /*border:.5px solid #999;*/
+}
+
+.footerWrapper{
+  background-color:green;
+  height:100px;
+  margin: 0 14px;
+
+}
+
+.newsletter{
+  width:100px;
+  height:50px;
+  background-color: #E31B24;
 }
